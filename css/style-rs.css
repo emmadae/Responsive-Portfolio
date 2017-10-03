@@ -1,6 +1,6 @@
 /* general background page sets */
 body{
-	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+	background-image: linear-gradient(to top, #ace0f9 0%, #fff1eb 100%);
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -319,6 +319,12 @@ textarea {
 /* for mobile devices only */
 @media only screen and (min-width: 320px) and (max-width: 736px)
   and (orientation: portrait){
+  	/* NAV BAR */
+
+  	.nav li a {
+    font-size: 0.938em;  /* 15px */
+    margin: 8px;
+	}
 
 	/* MAIN BODY */
 	/* heading - all page universal, title of the page */
@@ -332,11 +338,6 @@ textarea {
 	.bodyph{
 		top:150px;
 		margin-left: 2.5%;
-	}
-
-	/* main image on index.html */
-	#img{
-		margin-left: -7.5%;
 	}
 
 	/* main body text on index.html */
@@ -385,7 +386,7 @@ textarea {
 	.connect{
 		padding:10px;
 		position: absolute;
-		bottom:-250px;
+		bottom:-360px;
 	}
 
 	.connect h2{
@@ -394,11 +395,11 @@ textarea {
 	}
 
 	.connect ul{
-		margin-left: 25%;
+		margin-left: 20%;
 	}
 
 	.connect ul li{
-		margin-right: 5px;
+		margin-right: 3px;
 		float: left;
 	}
 
