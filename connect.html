@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
-		<title> E | N : HOME </title>
+		<title> E | N : CONNECT </title>
 
 	<!-- Google Font Links & Icon Links-->
 		<script src="https://use.fontawesome.com/92c41c2648.js"></script>
@@ -18,9 +18,11 @@
 		<script type="text/javascript" src="assets/javascript/script.js"></script> 
 	</head>
 
-<!--body of website -->
-	<body>
+<!-- Body of Website -->
+	<body id="pages-body">
 		<header>
+
+		<!-- Navigation Bar -->
 			<nav class="nav">
 				<h1> E | N </h1>
 
@@ -32,29 +34,35 @@
 				</div>
 
 	            <ul class="list-items">
-	            	<li><a href="connect.html">CONNECT</a></li>
+	            	<li><a href="connect.html" class="active">CONNECT</a></li>
 	            	<li><a href="portfolio.html">PORTFOLIO</a></li>
 		            <li><a href="about-me.html">ABOUT ME</a></li>
-		            <li><a href="index.html" class="active" >HOME</a></li>
+		            <li><a href="index.html">HOME</a></li>
 	            </ul>
 
 	    	</nav>
 		</header>
-	  
-	  	<section class="intro">
-	  		<h1> Emma Nelson </h1>
-	  		<h2> UI WEB DEVELOPER </h2>
-	  		<i class="fa fa-angle-down" aria-hidden="true"></i>
-	  	</section>
 
-		<section class="scroll-1">
-			<img src="assets/images/img-1.jpg" alt="image">
-			<h1> Portfolio. </h1>
-			<button type="button"><a href="portfolio.html"> EXPLORE </a> </button>
+	<!-- Main Page Heading -->
+			<h1 class="heading"> Contact Me. </h1>
+
+	<!-- Contact Form -->
+		<section class="contact-form">
+	        <form method="post" action="index.php">
+	            <input name="name" type="name" placeholder="Name*">
+	            <br>
+	            <input name="email" type="email" placeholder="Email*">
+	            <br>
+	            <textarea name="message" placeholder="Questions/Comments*"></textarea>
+	            <br>
+	            <input id="submit" name="submit" type="submit" value="SUBMIT">
+	        </form>
 		</section>
+
+		<img id="img-3" src="assets/images/img-3.jpg" alt="mountains">
+
 
 
 	</body>
 
 </html>
-
