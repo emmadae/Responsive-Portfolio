@@ -1,8 +1,6 @@
 
 $(document).ready(function() {
 
-  // starting by hiding the game untill the 
-  // "challange accepted?" btn is clicked by the user
 	$('#nav-icon3').click(function(){
 		$(this).toggleClass('open');
 		$(".list-items").toggle(800);
