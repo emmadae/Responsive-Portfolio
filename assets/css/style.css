@@ -247,6 +247,12 @@ body{
 
 
 /* Portfolio.html page styling */
+.portfolio img{
+ width:70%;
+ margin-left: 15%;
+ margin-right: 15%;
+}
+
 #row-1{
 	margin-left:5%;
 }
